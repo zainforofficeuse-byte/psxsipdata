@@ -80,3 +80,7 @@ if st.button("Calculate SIP 🚀", type="primary"):
         except Exception as e:
             st.error(f"❌ Data fetch karne mein masla aaya (PSX Server Issue): {e}")
             st.info("Tip: Thori der baad dobara 'Calculate' par click karein.")
+
+# --- Disclaimer ---
+st.markdown("---")
+st.caption("⚠️ **Disclaimer:** This application is for educational and informational purposes only. This does NOT constitute financial advice. Stock market investments are subject to market risks. Please do your own research (DYOR) or consult a certified financial advisor before making any investment decisions.")
